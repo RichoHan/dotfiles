@@ -2,15 +2,6 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-export CLASSPATH=.:$CLASSPATH:$JAVA_HOME/lib:$JAVA_HOME/jre/lib
-
-export ZSH=/home/richo/.oh-my-zsh
-export PATH="$PATH:/home/richo/Android/Sdk/platform-tools"
-export PATH="$PATH:/home/richo/Android/Sdk/tools"
-export PATH="$PATH:/home/richo/Android/Sdk/tools/bin"
-export PATH="$PATH:/home/richo/Android/gradle-2.14.1/bin"
-export PATH="$PATH:/opt/android-studio/bin"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
