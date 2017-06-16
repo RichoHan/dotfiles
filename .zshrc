@@ -1,12 +1,17 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/home/richo/anaconda3/bin:$PATH
+export PATH=/home/richo/Android/Sdk/platform-tools:$PATH
+export LD_LIBRARY_PATH=/home/richo/anaconda3/lib:$LD_LIBRARY_PATH
+
 
 # Path to your oh-my-zsh installation.
+export ZSH=/home/richo/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="classyTouch"
+# ZSH_THEME="classyTouch"
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
@@ -50,9 +55,9 @@ CASE_SENSITIVE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git virtualenvwrapper history zsh-autosuggestions)
+# plugins=(git virtualenvwrapper history zsh-autosuggestions zsh-syntax-highlighting)
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
@@ -83,4 +88,21 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source /home/richo/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Antigen Configuration
+# antigen reset if needed
+source /home/richo/workspace/personalization/antigen/antigen.zsh
+antigen use oh-my-zsh
+
+antigen bundle git
+antigen bundle virtualenvwrapper
+antigen bundle history
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle tonyseek/oh-my-zsh-virtualenv-prompt
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen theme tonyseek/oh-my-zsh-seeker-theme seeker
+antigen apply
+
+alias 711='cd /home/richo/workspace/amax/7.1.1/AsusSystemUI'
+alias 700='cd /home/richo/workspace/amax/7.0.0/AsusSystemUI'
