@@ -1,0 +1,17 @@
+robbyrussell/oh-my-zsh
+robbyrussell/oh-my-zsh path:plugins/command-not-found
+robbyrussell/oh-my-zsh path:plugins/git
+robbyrussell/oh-my-zsh path:plugins/history
+
+robbyrussell/oh-my-zsh path:plugins/extract
+robbyrussell/oh-my-zsh path:plugins/cp
+robbyrussell/oh-my-zsh path:plugins/colorize
+robbyrussell/oh-my-zsh path:plugins/colored-man-pages
+
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
+
+marzocchi/zsh-notify
+
+mafredri/zsh-async
+sindresorhus/pure
