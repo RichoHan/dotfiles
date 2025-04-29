@@ -1,5 +1,3 @@
-# Initialize antibody first
-source <(antibody init)
-
-# Seuquentially bundle zsh plugins
-antibody bundle < ~/.zsh_plugins.txt
+# Initialize antidote
+source /usr/local/opt/antidote/share/antidote/antidote.zsh
+antidote load

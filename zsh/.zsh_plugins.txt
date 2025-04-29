@@ -11,7 +11,5 @@ robbyrussell/oh-my-zsh path:plugins/colored-man-pages
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-syntax-highlighting
 
-marzocchi/zsh-notify
-
 mafredri/zsh-async
 sindresorhus/pure
